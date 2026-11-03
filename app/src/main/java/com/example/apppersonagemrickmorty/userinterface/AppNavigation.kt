@@ -7,14 +7,15 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
 import com.example.apppersonagemrickmorty.model.Rota
+import com.example.apppersonagemrickmorty.userinterface.LoginScreen
 import com.example.apppersonagemrickmorty.viewmodel.LoginViewModel
 import com.example.apppersonagemrickmorty.viewmodel.PersonagemViewModel
+import com.example.apppersonagemrickmorty.userinterface.SplashScreen
 
 @Composable
 fun AppNavigation() {
     val navController = rememberNavController()
 
-    // ViewModels compartilhados para o fluxo
     val personagemViewModel: PersonagemViewModel = viewModel()
     val loginViewModel: LoginViewModel = viewModel()
 
