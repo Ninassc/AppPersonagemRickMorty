@@ -69,5 +69,8 @@ dependencies {
     // Room: persistência local, agora automatizada
     implementation(libs.room.runtime)
     implementation(libs.room.ktx)
+
+    implementation(libs.coil.compose)
+
     ksp(libs.room.compiler)
 }

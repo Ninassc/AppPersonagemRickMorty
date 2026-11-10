@@ -7,6 +7,10 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.toRoute
 import com.example.apppersonagemrickmorty.model.Rota
+import com.example.apppersonagemrickmorty.userinterface.CadastroScreen
+import com.example.apppersonagemrickmorty.userinterface.DetalhePersonagemScreen
+import com.example.apppersonagemrickmorty.userinterface.FavoritosScreen
+import com.example.apppersonagemrickmorty.userinterface.HomeScreen
 import com.example.apppersonagemrickmorty.userinterface.LoginScreen
 import com.example.apppersonagemrickmorty.viewmodel.LoginViewModel
 import com.example.apppersonagemrickmorty.viewmodel.PersonagemViewModel
@@ -61,7 +65,7 @@ fun AppNavigation() {
                         popUpTo(Rota.Cadastro) { inclusive = true }
                     }
                 },
-                onVoltar = {
+                onVoltarParaLogin = {
                     navController.popBackStack()
                 }
             )
