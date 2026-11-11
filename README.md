@@ -8,7 +8,6 @@ Uma aplicação Android moderna desenvolvida em **Kotlin** com **Jetpack Compose
 - [Funcionalidades](#-funcionalidades)
 - [Arquitetura e Tecnologias](#-arquitetura-e-tecnologias)
 - [Design System](#-design-system)
-- [Screenshots do Projeto](#-screenshots-do-projeto)
 - [Checklist de Validação](#-checklist-de-validação)
 - [Como Executar o Projeto](#-como-executar-o-projeto)
 
@@ -61,14 +60,6 @@ A interface do aplicativo segue um padrão visual escuro focado no tema do unive
 | **Contêiner Interno** | `#CCDCE3` | Card interno em azul suave para destaque |
 | **Botões Primários** | `#5A758D` | Azul acinzentado com cantos arredondados (estilo pílula) |
 | **Destaque Portal** | `#97CE4C` | Verde característico da série utilizado na Splash Screen |
-
----
-
-## 📸 Screenshots do Projeto
-
-| Splash Screen | Login | Cadastro | Home (Busca) | Favoritos | Detalhes |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| ![Splash](docs/screenshots/splash.png) | ![Login](docs/screenshots/login.png) | ![Cadastro](docs/screenshots/cadastro.png) | ![Home](docs/screenshots/home.png) | ![Favoritos](docs/screenshots/favoritos.png) | ![Detalhes](docs/screenshots/detalhes.png) |
 
 ---
 
