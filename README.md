@@ -4,15 +4,6 @@ Uma aplicação Android moderna desenvolvida em **Kotlin** com **Jetpack Compose
 
 ---
 
-## 📌 Sumário
-- [Funcionalidades](#-funcionalidades)
-- [Arquitetura e Tecnologias](#-arquitetura-e-tecnologias)
-- [Design System](#-design-system)
-- [Checklist de Validação](#-checklist-de-validação)
-- [Como Executar o Projeto](#-como-executar-o-projeto)
-
----
-
 ## 🚀 Funcionalidades
 
 - **Autenticação Local:** Tela de cadastro e login salvos localmente via Room Database com armazenamento seguro de senha (hash).
@@ -101,3 +92,40 @@ A interface do aplicativo segue um padrão visual escuro focado no tema do unive
 4. **Sincronizar e Rodar:**
    - Clique no ícone de elefante (**Sync Project with Gradle Files**).
    - Selecione um emulador Android ou dispositivo físico e clique em **Run 'app'** (`Shift + F10`).
+  
+---
+
+## 🤝 Feedback da Equipe
+
+### Identificação
+
+**Integrantes:** Nina Sepúlveda e Luiz Henrique
+
+### 1. Como foi a participação de cada colega?
+
+| Colega | Nota de 1 a 5 | Ponto forte |
+| :--- | :---: | :--- |
+| Luiz Henrique | 5 | Responsável pela prototipação no Figma, desenvolvimento do design e criação das interfaces do aplicativo. |
+| Nina Sepúlveda | 5 | Responsável pela estruturação do banco de dados, modelos, integração com a API, repositórios e ViewModels, desenvolvendo a lógica e o gerenciamento dos dados do aplicativo. |
+
+### 2. Atuação da equipe
+
+Avaliação de 1 a 5, sendo 1 = nunca e 5 = sempre.
+
+| Pergunta | Nota |
+| :--- | :---: |
+| Cumprimos o que combinamos na equipe? | 5 |
+| Comunicamos nossas dificuldades e pedimos ajuda quando necessário? | 4 |
+| Ouvimos as ideias um do outro, mesmo quando eram diferentes? | 5 |
+
+### 3. Um ponto positivo e um ponto a melhorar na nossa atuação
+
+**Ponto positivo:**
+
+Um dos nossos pontos positivos foi o comprometimento com o desenvolvimento do aplicativo e a divisão das responsabilidades. Enquanto Luiz ficou responsável pelo design e pelas interfaces, Nina trabalhou na estruturação do banco de dados, integração com a API e desenvolvimento da lógica da aplicação. Essa organização permitiu que cada um contribuísse com diferentes partes do projeto. Também buscamos resolver os problemas encontrados durante os testes e aprender mais sobre as tecnologias utilizadas.
+
+**Ponto a melhorar:**
+
+Um ponto que podemos melhorar é a organização do tempo durante o desenvolvimento. Algumas dificuldades técnicas exigiram mais tempo do que o esperado, principalmente na identificação e correção de erros. Para os próximos projetos, podemos planejar melhor as etapas, manter uma comunicação mais frequente sobre o andamento das tarefas e realizar testes ao longo do desenvolvimento.
+
+---
